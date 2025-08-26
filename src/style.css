@@ -1,0 +1,110 @@
+body{
+    background-image: url(../image/bg-repeat.jpg);
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    min-height: 100vh;
+}
+
+.texto{
+    width: 18.75rem;
+    height: 6.9375rem;
+    margin-left: 3.125rem;
+    color: #FFFFFF;
+    
+   
+}
+
+h1{
+    width: 17.9531rem;
+    height: 3.125rem;
+    font-size: 1.25rem;
+    font-weight: 900;
+    line-height: 100%;
+}
+
+p{
+    height: 3.375rem;
+    font-weight: 400;
+    font-size: .9375rem;
+    line-height: 100%;
+}
+
+.campo{
+    width: 21.25rem;
+    height: 23.625rem;
+    background-color: #FFFFFF;
+}
+
+.campo input{
+    display: flex;
+    width: 18.5006rem;
+    height: 2.0625rem;
+    border-radius: .3125rem;
+    border: 1px solid #000;
+    top: .4375rem;
+    left: 1rem;
+    font-size: .9375rem;
+    font-weight: 700;
+    color: #A8A8A8;
+    position: relative;
+    color: #000;
+    margin: .375rem;
+    padding: .625rem;
+    
+    
+}
+
+#mensagem{
+    height: 6.25rem;
+    
+    
+}
+.campo p {
+    
+    margin-left: 1.375rem;
+    height: .625rem;
+    font-size: .9375rem;
+    margin-top: .5rem;
+    color: red;
+    
+    }
+    
+
+
+.rodape p{
+    position: relative;
+    height: 1.875rem;
+    font-size: .9375rem;
+    font-weight: 400;
+    top: .3125rem;
+    display: block;
+    margin-top: .0625rem;
+    color: #000;
+    
+}
+
+ button {
+    width: 18.6256rem;
+    height: 2.5706rem;
+    border-radius: .3125rem;
+    color: #FFFFFF;
+    background-color: #3CCC87;
+    border: none;
+    font-weight: 700;
+    font-size: .9375rem;
+    margin-left: 1.375rem;
+    
+    }
+
+.campo .invalid{
+    border: 1px solid red;
+}
+
+.erro{
+    display: none;
+}

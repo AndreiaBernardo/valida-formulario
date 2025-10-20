@@ -40,7 +40,7 @@ p{
     background-color: #FFFFFF;
 }
 
-.campo input{
+.campo textarea{
     display: flex;
     width: 18.5006rem;
     height: 2.0625rem;
@@ -50,9 +50,9 @@ p{
     left: 1rem;
     font-size: .9375rem;
     font-weight: 700;
-    color: #A8A8A8;
-    position: relative;
     color: #000;
+    position: relative;
+    
     margin: .375rem;
     padding: .625rem;
     

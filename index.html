@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,40 +9,45 @@
     <link rel="stylesheet" href="./src/reset.css">
     <link rel="stylesheet" href="./src/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <form >
+    <form>
         <div class="texto">
             <h1>FICOU COM DÚVIDA? NOS MANDE UMA MENSAGEM!</h1>
-            <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+            <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de
+                24h.</p>
         </div>
 
         <div class="campo">
-            <input  id="nome" type="text" placeholder="Nome completo*">
+            <textarea name="nome" id="nome" cols="50" rows="4" placeholder="Nome*"></textarea>
             <p class="erro ">campo obrigatório</p>
-            
-            <input name="email"  class="" id="email" type="text" placeholder="Email*">
-             <p class="erro ">campo obrigatório</p>
 
-            <input class="" id="telefone" type="number" placeholder="Telefone*">
-             <p class="erro ">campo obrigatório</p>
+            <textarea name="email" id="email" cols="50" rows="4" placeholder="Email*"></textarea>
+            <p class="erro ">campo obrigatório</p>
 
-            <input class="" id="mensagem" type="text" placeholder="Mensagem*">
-             <p class="erro ">campo obrigatório</p>
-             
-             <div class="rodape"><p>*campos obrigatórios</p>
+           <textarea name="telefone" id="telefone" cols="50" rows="4" placeholder="Telefone*"></textarea>
+            <p class="erro ">campo obrigatório</p>
+
+            <textarea name="mensagem" id="mensagem" cols="50" rows="4" placeholder="Mensagem*"></textarea>
+            <p class="erro">campo obrigatório</p>
+
+            <div class="rodape">
+                <p>*campos obrigatórios</p>
             </div>
 
-            <button >Enviar</button>
+            <button type="submit">Enviar</button>
 
-           
-        
-        
 
-        </form>
+
+
+    </form>
 
     <script src="index.js"></script>
 </body>
+
 </html>
